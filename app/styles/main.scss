@@ -19,6 +19,7 @@ body {
   height: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -67,11 +68,18 @@ body {
   height: 100%;
   text-align: center;
   border-bottom: 0;
+  &:hover{
+    text-decoration: none;
+  }
   .logo {
     width: 100%;
     position: absolute;
     //top: 50%;
     margin: auto;
+    h1 {
+      font-weight: 300;
+      font-size:4em;
+    }
   }
   .landing {
     height: 80%;
